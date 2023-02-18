@@ -24,7 +24,7 @@ def download_blob(
 if __name__ == "__main__":
     # Set environment variable GOOGLE_APPLICATION_CREDENTIALS to the path of the service account key file
     # TODO: Replace the path with your own path!
-    os.environ["GOOGLE_APPLICATION_CREDENTIALS"] = "/home/vinhloc30796/work_ntu/mh6812_nlp_ai/personal-sandbox-320321-a91a885e7dc2.json"
+    os.environ["GOOGLE_APPLICATION_CREDENTIALS"] = "ADD_OWN_PATH"
     
     # User input: how many files to download
     n_files = int(input("How many files to download? "))
